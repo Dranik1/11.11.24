@@ -1,0 +1,24 @@
+{
+    "states":[
+        {
+            "name":"Alabama",
+            "abbriviation":"AL",
+            "area_codes":["205", "251", "256", "334", "938"]
+        },
+        {
+            "name":"Alaska",
+            "abbriviation":"AK",
+            "area_codes":["907"]
+        },
+        {
+            "name":"Arizona",
+            "abbriviation":"AZ",
+            "area_codes":["408", "520", "602", "623", "928"]
+        },
+        {
+            "name":"New York",
+            "abbriviation":"NY",
+            "area_codes":["408", "520", "602", "623", "928"]
+        }
+    ]
+}
