@@ -73,13 +73,24 @@ def delete_organization_by_id():
             #organizations.remove(organization)
             del organizations
 
+def find_person_by_id():
+    person_id=input()
+    for organisation in organizations:
+        for contact in organisation['contacts']:
+            if contact['id']==person_id:
+                print(contact['name'])
+                return
+
+
+
 def main():
     load_data()
     print("-"*10)
     count_organizations()
     print("-"*10)
     list_organization_ids()
-    find_organization_by_id()    
+    find_organization_by_id()  
+    find_person_by_id()  
     while(True):
         response=input('(1) - Pievieno organizāciju // (2) - Izvada organzāciju // (3) - Beigt // (4) - Dzēst organizāciju ')
         if response =='1':
@@ -96,4 +107,5 @@ def main():
         else:
             print("Izvele skaitļu 1, 2 vai 3")
             continue
+    
 main()

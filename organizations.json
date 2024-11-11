@@ -1,0 +1,28 @@
+{
+    "organizations": [
+        {
+            "name": "LMT",
+            "adress": "skola10",
+            "id": "12",
+            "contacts": [
+                {
+                    "name": "Anton",
+                    "position": "Manager",
+                    "id": "1"
+                }
+            ]
+        },
+        {
+            "name": "BITE",
+            "adress": "pils1",
+            "id": "11",
+            "contacts": [
+                {
+                    "name": "Anna",
+                    "position": "Manager",
+                    "id": "2"
+                }
+            ]
+        }
+    ]
+}
